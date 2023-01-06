@@ -49,7 +49,7 @@ X.head()
 # now X contains table without target column which will help for training the dataset
 ```
 
-## Train Test split
+## Train Test Split
 
 ```
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.15, stratify = Y, random_state = 3 )
@@ -69,7 +69,7 @@ model.fit(X_train.values, Y_train)
 
 ```
 # accuracy of traning data
-# accuracy function measures accuracy between two values,or columns
+# accuracy function measures accuracy of model
 
 X_train_prediction = model.predict(X_train.values)
 training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
@@ -100,7 +100,7 @@ print("The accuracy of test data : ", test_data_accuracy)
 # input feature values
 input_data = (42,1,0,136,315,0,1,125,1,1.8,1,0,1)
 
-# change the input data into numpy array 
+# change the input data into a numpy array 
 input_data_as_numpy_array = np.array(input_data)
 
 # reshape the array to predict data for only one instance
@@ -117,10 +117,10 @@ prediction = model.predict(reshaped_array)
 print(prediction)
 
 if(prediction[0] == 0):
-    print("Patient has a healthy heart 💛💛💛💛")
+    print("The Patient has a healthy heart 💛💛💛💛")
 
 else:
-    print("Patient has a unhealthy heart 💔💔💔💔")
+    print("The Patient has an unhealthy heart 💔💔💔💔")
 ```
 
 ## Notations of predicted output: 
