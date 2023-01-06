@@ -132,8 +132,10 @@ else:
 ## Contributor 
 
 #### [Ankit Nainwal](https://github.com/nano-bot01)
-[Twitter](https://twitter.com/Anku___)
-[Hashnode](https://hashnode.com/@ankitnainwal)
+- [Twitter](https://twitter.com/Anku___)
+- [LinkedIn](https://www.linkedin.com/in/ankit-nainwal1/?original_referer=)
+- [Hashnode](https://hashnode.com/@ankitnainwal)
+- [Instagram](https://www.instagram.com/the.ankit.nainwal/)
 
 
 
