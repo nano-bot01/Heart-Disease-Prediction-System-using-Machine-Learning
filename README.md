@@ -68,6 +68,9 @@ model.fit(X_train.values, Y_train)
 ![image](https://user-images.githubusercontent.com/78251168/211057178-3b209f44-9e51-4a6b-819b-019c9f4ddb10.png)
 
 ```
+# accuracy of traning data
+# accuracy function measures accuracy between two values,or columns
+
 X_train_prediction = model.predict(X_train.values)
 training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
 
@@ -83,6 +86,45 @@ test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
 print("The accuracy of test data : ", test_data_accuracy)
 ```
 
+## Predicting Results
 
+#### Steps : 
 
+  - take input data
+  - Process the data, change into array 
+  - reshape data as single element in array 
+  - predict output using predict function 
+  - output the value
 
+```
+# input feature values
+input_data = (42,1,0,136,315,0,1,125,1,1.8,1,0,1)
+
+# change the input data into numpy array 
+input_data_as_numpy_array = np.array(input_data)
+
+# reshape the array to predict data for only one instance
+reshaped_array = input_data_as_numpy_array.reshape(1,-1)
+```
+
+### Printing Results
+
+```
+# predicting the result and printing it
+
+prediction = model.predict(reshaped_array)
+
+print(prediction)
+
+if(prediction[0] == 0):
+    print("Patient has a healthy heart 💛💛💛💛")
+
+else:
+    print("Patient has a unhealthy heart 💔💔💔💔")
+```
+
+## Notations of predicted output: 
+
+  - [0] : means patient has a healthy heart 💛💛💛💛
+  - [1] : means patient has a unhealthy heart 💔💔💔💔
+  
