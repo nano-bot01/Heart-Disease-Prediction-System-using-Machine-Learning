@@ -18,8 +18,71 @@ A machine records these signals, and a doctor examines them to see whether they 
 ### Workflow of model
 
   - Data collection 
+  - Split Features and Target set
   - Train-Test split
   - Model Training
   - Model Evaluation
   - Predicting Results
+
+
+
+## Data collection 
+
+[Dataset Link](https://drive.google.com/file/d/1CEql-OEexf9p02M5vCC1RDLXibHYE9Xz/view?usp=drivesdk)
+
+## Dependencies
+
+```
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+```
+
+## Split Features and Target set
+
+```
+X = heart_data.drop(columns = 'target', axis = 1)
+X.head()
+# now X contains table without target column which will help for training the dataset
+```
+
+## Train Test split
+
+```
+X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.15, stratify = Y, random_state = 3 )
+```
+* here we have test data size is 20 percent of total data which is evenly distributed with degree of randomness = 3
+
+## Model Training 
+
+```
+model = LogisticRegression()
+model.fit(X_train.values, Y_train)
+```
+
+## Model Evaluation 
+
+![image](https://user-images.githubusercontent.com/78251168/211057178-3b209f44-9e51-4a6b-819b-019c9f4ddb10.png)
+
+```
+X_train_prediction = model.predict(X_train.values)
+training_data_accuracy = accuracy_score(X_train_prediction, Y_train)
+
+print("The accuracy of training data : ", training_data_accuracy)
+```
+
+```
+# accuracy of test data
+
+X_test_prediction = model.predict(X_test.values)
+test_data_accuracy = accuracy_score(X_test_prediction, Y_test)
+
+print("The accuracy of test data : ", test_data_accuracy)
+```
+
+
+
 
