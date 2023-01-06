@@ -128,3 +128,13 @@ else:
   - [0] : means patient has a healthy heart 💛💛💛💛
   - [1] : means patient has a unhealthy heart 💔💔💔💔
   
+  
+## Contributor 
+
+#### [Ankit Nainwal](https://github.com/nano-bot01)
+[Twitter](https://twitter.com/Anku___)
+[Hashnode](https://hashnode.com/@ankitnainwal)
+
+
+
+### Please ⭐⭐⭐. 
