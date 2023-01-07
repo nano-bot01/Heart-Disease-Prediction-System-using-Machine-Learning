@@ -69,7 +69,7 @@ model.fit(X_train.values, Y_train)
 ## Model Evaluation 
 
 <p align="center">
-  <img width="650" height="400" src="https://user-images.githubusercontent.com/78251168/211057178-3b209f44-9e51-4a6b-819b-019c9f4ddb10.png">
+  <img width="500" height="500" src="https://user-images.githubusercontent.com/78251168/211057178-3b209f44-9e51-4a6b-819b-019c9f4ddb10.png">
 </p>
 
 
