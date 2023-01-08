@@ -142,6 +142,9 @@ else:
 - [LinkedIn](https://www.linkedin.com/in/ankit-nainwal1/?original_referer=)
 - [Hashnode](https://hashnode.com/@ankitnainwal)
 - [Instagram](https://www.instagram.com/the.ankit.nainwal/)
+<hr>
+
+- [Medium](https://medium.com/@ankitnainwal/heart-disease-prediction-system-using-logistic-regression-7dac1c243552)
 
 
 
