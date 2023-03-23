@@ -162,5 +162,4 @@ else:
 - [Medium](https://medium.com/@ankitnainwal/heart-disease-prediction-system-using-logistic-regression-7dac1c243552)
 
 
-
 ### Please ⭐⭐⭐. 
