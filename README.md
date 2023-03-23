@@ -33,6 +33,21 @@ A machine records these signals, and a doctor examines them to see whether they 
 
 [Dataset Link](https://drive.google.com/file/d/1CEql-OEexf9p02M5vCC1RDLXibHYE9Xz/view?usp=drivesdk)
 
+#### Columns Information
+ - age
+ - sex
+ - Chest pain type (4 values)
+ - Resting blood pressure
+ - Serum cholestoral in mg/dl
+ - Fasting blood sugar > 120 mg/dl
+ - Resting electrocardiographic results (values 0,1,2)
+ - Maximum heart rate achieved
+ - Exercise induced angina
+ - Oldpeak = ST depression induced by exercise relative to rest
+ - The slope of the peak exercise ST segment
+ - Number of major vessels (0-3) colored by flourosopy
+ - Thal: 0 = normal; 1 = fixed defect; 2 = reversable defect
+
 ## Dependencies
 
 ```
