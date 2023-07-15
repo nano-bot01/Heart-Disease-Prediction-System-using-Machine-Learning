@@ -77,12 +77,12 @@ def main():
     
     st.markdown("""
     
-    About the data to be filled : 
+    About the data to be filled (all data is in numeric form without units) : 
         
-        1. age
-        2. sex
+        1. age (in numbers)
+        2. sex (0 : female, 1 : male)
         3. chest pain type (4 values : 0-3)
-        4. Resting blood pressure
+        4. Resting blood pressure (numeric only)
         5. Serum Cholestoral in mg/dl
         6. Fasting blood sugar > 120 mg/dl
         7. Resting electrocardiographic results (values 0,1,2)
